@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+Tech Stack Justification:
+-React: Offers a component-based structure and efficient state management, ideal for building dynamic, interactive UIs.
+-React Router: Manages navigation and routing, ensuring smooth page transitions across the app.
+-Context API: Handles global state for cart and user data, providing a seamless experience across different pages.
+-Baserow: A mock-up database for simple API fetching and testing during development.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Implementation Plan:
+-Step 1: Break down the project into key components such as the Header/Footer, HomePage, Shop View, Item View, Login, Checkout, etc., for simpler development and structure.
+-Step 2: Set up the app skeleton to configure routing and map routes to the appropriate components.
+-Step 3: Identify the data needs for each component. For example, fetching data for the Shop View, managing cart and user state using Context API, etc.
+-Step 4: Develop components and integrate CSS using design references for consistent styling.
+-Step 5: Test the app locally, ensuring everything works as expected and that it’s responsive across different devices.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Optimization Strategies:
+-Backend Optimization: Improve API endpoints for more specific data fetching to reduce load times.
+-React Optimization: Use React hooks like useMemo and useCallback to optimize performance and avoid unnecessary re-renders.
+-TailwindCSS: Leverage TailwindCSS to speed up development time by using utility classes, ensuring faster styling and responsiveness.
