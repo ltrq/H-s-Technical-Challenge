@@ -1,0 +1,76 @@
+.hero {
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+  text-align     : center;
+}
+
+.hero-content {
+  z-index        : 2;
+  position       : relative;
+  color          : black;
+  margin-top     : 60px;
+  display        : flex;
+  flex-direction : column;
+  align-items    : center;
+  justify-content: center;
+  text-align     : center;
+}
+
+.hero-text {
+  font-size  : 2rem;
+  font-weight: bold;
+}
+
+.hero-text-description {
+  width    : 65%;
+  font-size: 1rem;
+  color    : rgb(184, 184, 184);
+}
+
+.hero-shop-button {
+  margin-top   : 50px;
+  margin-bottom: 50px;
+}
+
+.shop-button {
+  padding         : 10px 75px;
+  font-size       : 1.2rem;
+  color           : rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  text-decoration : none;
+  border          : #333 2px solid;
+  transition      : background-color 0.3s ease;
+}
+
+.shop-button:hover {
+  background-color: #333;
+}
+
+.hero-image {
+  display        : flex;
+  justify-content: center;
+  align-items    : center;
+}
+
+.hero-image img {
+  width     : 60%;
+  object-fit: cover;
+}
+
+.magazine-icon {
+  display        : flex;
+  flex-direction : row;
+  align-items    : center;
+  justify-content: center;
+  text-align     : center;
+  gap            : 100px;
+  margin-top     : 50px;
+  margin-bottom  : 50px;
+}
+
+.magazine-icon img {
+  width     : 300px;
+  object-fit: cover;
+}

@@ -1,0 +1,59 @@
+.filter-buttons button {
+    padding         : 10px 20px;
+    margin          : 5px;
+    border          : 1px solid #ccc;
+    cursor          : pointer;
+    background-color: white;
+    font-size       : 14px;
+}
+
+.filter-buttons button.selected {
+    background-color: #9b9b9b;
+    color           : white;
+}
+
+.filter-buttons button:disabled {
+    background-color: #f0f0f0;
+    color           : #a0a0a0;
+    cursor          : not-allowed;
+    border-color    : #ccc;
+}
+
+.item-container {
+    display        : flex;
+    flex-direction : row;
+    justify-content: center;
+    align-items    : center;
+    gap            : 100px;
+    min-height     : 60vh;
+}
+
+.item-info {
+    height         : 600px;
+    padding-top    : 100px;
+    justify-content: top;
+    align-items    : top;
+}
+
+.action-buttons {
+    display        : flex;
+    flex-direction : row;
+    justify-content: left;
+    align-items    : center;
+    gap            : 10px;
+    padding-top    : 20px;
+}
+
+.add-to-cart {
+    color           : white;
+    background-color: black;
+    padding         : 10px 50px;
+    border          : none;
+}
+
+.buy-now {
+    color           : rgb(255, 255, 255);
+    background-color: rgb(30, 82, 252);
+    padding         : 10px 50px;
+    border          : none;
+}
